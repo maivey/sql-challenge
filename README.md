@@ -1,12 +1,12 @@
 # SQL - Employee Database: A Mystery in Two Parts
 
-![sql.png](sql.png)
+
 
 ## Background
 
 It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
-In this assignment, first design the tables to hold data in the CSVs, then import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+This script first designs the tables to hold data in the CSVs, then imports the CSVs into a SQL database, and answers questions about the data. In other words, it performs:
 
 1. Data Modeling
 
@@ -15,21 +15,22 @@ In this assignment, first design the tables to hold data in the CSVs, then impor
 3. Data Analysis
 
 
-## Instructions
-
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables.
+Inspects the CSVs and sketch out an ERD of the tables.
+
+The ERD:
+[ERD](EmployeeSQL/ERD/employee-sql_ERD.png)
 
 #### Data Engineering
 
-* Use the information you have to create a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
+* Uses the information given to create a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
 
-* Import each CSV file into the corresponding SQL table.
+* Imports each CSV file into the corresponding SQL table.
 
 #### Data Analysis
 
-Once I have a complete database, I do the following:
+After completing the database, I do the following:
 
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 
